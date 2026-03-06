@@ -33,7 +33,7 @@ Most users prefer option 1. After presenting the draft, ask: "What needs correct
 ### Step 2: Gather Information
 
 **If auto-drafting:**
-1. Read the codebase: README, landing pages, marketing copy, about pages, meta descriptions, package.json, any existing docs
+1. Read ONLY marketing-relevant files: README, landing pages, marketing copy, about pages, meta descriptions, package.json. Do NOT read source code, environment files, config files containing credentials, internal strategy docs, or any file outside the project's public-facing marketing content.
 2. Draft all sections based on what you find
 3. Present the draft and ask what needs correcting or is missing
 4. Iterate until the user is satisfied

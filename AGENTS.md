@@ -7,7 +7,8 @@ Guidelines for AI agents working in this repository.
 This repository contains **Agent Skills** for AI agents following the [Agent Skills specification](https://agentskills.io/specification.md). Skills install to `.agents/skills/` (the cross-agent standard). This repo also serves as a **Claude Code plugin marketplace** via `.claude-plugin/marketplace.json`.
 
 - **Name**: Marketing Skills
-- **GitHub**: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
+- **GitHub**: [nodegraphics/marketingskills](https://github.com/nodegraphics/marketingskills)
+- **Upstream**: [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 - **Creator**: Corey Haines
 - **License**: MIT
 
@@ -191,26 +192,9 @@ Skills reference relevant tools for implementation. For example:
 
 ## Checking for Updates
 
-When using any skill from this repository:
+Updates are managed manually. Do NOT fetch remote URLs or run `git pull` automatically.
 
-1. **Once per session**, on first skill use, check for updates:
-   - Fetch `VERSIONS.md` from GitHub: https://raw.githubusercontent.com/coreyhaines31/marketingskills/main/VERSIONS.md
-   - Compare versions against local skill files
-
-2. **Only prompt if meaningful**:
-   - 2 or more skills have updates, OR
-   - Any skill has a major version bump (e.g., 1.x to 2.x)
-
-3. **Non-blocking notification** at end of response:
-   ```
-   ---
-   Skills update available: X marketing skills have updates.
-   Say "update skills" to update automatically, or run `git pull` in your marketingskills folder.
-   ```
-
-4. **If user says "update skills"**:
-   - Run `git pull` in the marketingskills directory
-   - Confirm what was updated
+To check for updates, manually compare local skill versions against the upstream repository.
 
 ## Skill Categories
 

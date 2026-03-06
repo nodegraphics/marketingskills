@@ -6,8 +6,8 @@
   },
   "metadata": {
     "description": "Marketing skills for AI agents — conversion optimization, copywriting, SEO, paid ads, and growth",
-    "version": "1.0.0",
-    "repository": "https://github.com/coreyhaines31/marketingskills"
+    "version": "1.0.0-hardened",
+    "repository": "https://github.com/nodegraphics/marketingskills"
   },
   "plugins": [
     {

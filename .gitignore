@@ -17,6 +17,9 @@ node_modules/
 # Remotion video project
 video/
 
+# Agent-generated context files (may contain business-sensitive data)
+.agents/
+
 # Editor
 *.swp
 *.swo
